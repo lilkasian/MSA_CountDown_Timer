@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="lisaMSA.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:lisaMSA"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Purple">
+        <TextBox x:Name="txtCountDown" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="150" Margin="485,288,0,0" FontFamily="Global User Interface" FontSize="53.333" TextAlignment="Center"/>
+        <TextBlock x:Name="lblCountDown" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="215" Margin="667,297,0,0" FontSize="53.333" TextAlignment="Center"/>
+        <Button x:Name="btnCountDown" Content="Start" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="482,413,481,301" Height="54" Width="403" Background="#FF6AD3D3"/>
+        <MediaElement x:Name="MediaTool" HorizontalAlignment="Left" Height="48" Margin="10,28,0,0" VerticalAlignment="Top" Width="110" Source="Assets/Nyan Nyan Song - Rock Version.mp3" AutoPlay="False"/>
+        <Button x:Name="btnCountDown_Copy" Content="Stop" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="482,487,481,227" Height="54" Width="403" Background="#FF6AD3D3"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Height="101" Margin="0,-450,0,0" TextWrapping="Wrap" Text="Count Down Timer" VerticalAlignment="Center" Width="649" FontSize="53.333" TextAlignment="Center" Background="Purple" BorderBrush="Purple" Foreground="White"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="8" Margin="485,246,0,0" TextWrapping="Wrap" Text="Seconds" VerticalAlignment="Top" Width="150" Background="Purple" BorderBrush="Purple" Foreground="#FFFDFDFD" TextAlignment="Center"/>
+
+    </Grid>
+</Page>
